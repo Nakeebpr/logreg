@@ -15,6 +15,10 @@ function App() {
         </Routes>
       </Router>
     </div>
+    // <div>
+    //   hi
+    //   <Home/>
+    // </div>
   );
 }
 
