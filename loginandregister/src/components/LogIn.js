@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import axios from "axios";
-import Router1 from './Router1';
+import Ra from './Ra';
 
 function LogIn() {
     const [login,setLogin]= useState({
@@ -35,7 +35,7 @@ function LogIn() {
         
         <button onClick={logIn}>Submit</button>
       </form>
-      <Router1/>
+      <Ra/>
     </div>
   )
 }

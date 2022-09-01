@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from "axios";
-import Router2 from './Router2';
 import validator from 'validator';
+import Rb from './Rb';
 
 function Home() {
 
@@ -46,7 +46,7 @@ function Home() {
 
         <button onClick={Register}>Submit</button>
       </form>
-      <Router2/>
+      <Rb/>
     </div>
   )
 }

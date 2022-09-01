@@ -3,7 +3,7 @@ import './App.css';
 import Home from './components/Home';
 import LogIn from './components/LogIn';
 import React from "react"
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 function App() {
   return (
@@ -15,10 +15,6 @@ function App() {
         </Routes>
       </Router>
     </div>
-    // <div>
-    //   hi
-    //   <Home/>
-    // </div>
   );
 }
 
